@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume - Sai Sameer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #03265a; 
+      
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 20px auto;
+      border-radius: 8px;
+      
+    }
+
+    .sidebar {
+      background-color: #363a37; 
+      color: #fff; 
+      padding: 20px;
+      width: 300px;
+    }
+
+    .profile-image {
+      border-radius: 50%;
+      margin-bottom: 20px;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid #fff; 
+    }
+
+    .main-content {
+      
+      background-color: #87868c; 
+      padding: 20px;
+      color: #1b1b1b; 
+    }
+
+    h1, h2, h3, p, ul, li {
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      color: #3498db; 
+    }
+
+    h2 {
+      border-bottom: 2px solid #3498db; 
+      padding-bottom: 5px;
+    }
+
+    .section-header {
+      background-color: #2980b9; 
+      color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+
+   
+
+    .contact-info p, .section-content p, ul li {
+      
+      padding-top: 0px; 
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+        
+      }
+
+      .profile-image {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="sidebar">
+    <img src="https://imgs.search.brave.com/0KZtfLij_DigVq-Wdhw9-exnO3T0n_dRZhTPIkVr_pI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaGVsbG9tYWdh/emluZS5jb20vaG9y/aXpvbi9zcXVhcmUv/MmExYjZlY2VjNGFl/LWNyaXN0aWFuby1y/b25hbGRvLXRvbmVk/LXRvcnNvLXNhdW5h/LXNlbGZpZS10Lmpw/Zw" alt="Profile Image" class="profile-image">
+    <h2>Sai Sameer</h2>
+    <p>Software Engineer</p>
+  </div>
+  <div class="main-content">
+    <section class="section">
+      <div class="section-header">
+        <h2>Contact Information</h2>
+      </div>
+      <div class="section-content contact-info">
+        <p>Name: K. Sai Sameer</p>
+        <p>Email: saisameer181@gmail.com</p>
+        <p>Phone: +91 7989147728</p>
+        <p>GitHub: Sai Sameer</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Education</h2>
+      </div>
+      <div class="section-content">
+        <h3>Amrita University, Kerala</h3>
+        <p>Bachelor of Science in Computer Science</p>
+        <p>Graduated: June 2027</p>
+        <h3>Secondary Education</h3>
+        <p>Narayana Junior College, Vijayawada</p>
+        <p>Year of Passout: 2023</p>
+        <h3>Primary Education</h3>
+        <p>Sri Chaitanya Techno School, Andhra Pradesh</p>
+        <p>Year of Passout: 2021</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Experience</h2>
+      </div>
+      <div class="section-content">
+        <h3>Software Engineer at Amazon</h3>
+        <p>August 2027 to Present</p>
+        <ul>
+          <li>Backend Development</li>
+          <li>Database Management: Experience in designing and managing databases using SQL</li>
+          <li>Testing and Debugging</li>
+          <li>Continuous Integration and Deployment (CI/CD)</li>
+        </ul>
+        <p>Backend Development: Skilled in building and maintaining server-side applications using Node.js, Python (Django/Flask), or Java (Spring Boot). Design and implement RESTful APIs, manage databases, and optimize server performance.</p>
+        <p>Database Management: Proficient in SQL (MySQL, PostgreSQL) and NoSQL (MongoDB, Redis). Develop efficient database schemas and ensure data integrity and security.</p>
+        <p>Testing and Debugging: Experienced in unit, integration, and end-to-end testing. Utilize debugging tools to maintain high-quality code standards.</p>
+        <p>Continuous Integration and Deployment (CI/CD): Implement CI/CD pipelines with Jenkins, GitLab CI/CD, or GitHub Actions to automate build, test, and deployment processes.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Skills</h2>
+      </div>
+      <div class="section-content">
+        <p>Programming Languages: JavaScript, Python, HTML/CSS</p>
+        <p>Frameworks: React, Django</p>
+        <p>Tools: Git, Docker</p>
+      </div>
+    </section>
+  </div>
+</div>
+
+</body>
+</html>
